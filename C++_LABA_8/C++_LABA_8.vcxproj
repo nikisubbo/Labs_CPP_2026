@@ -22,12 +22,14 @@
     <ClCompile Include="BackRec5.cpp" />
     <ClCompile Include="HomeDyn15.cpp" />
     <ClCompile Include="HomeDyn3.cpp" />
+    <ClCompile Include="input.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Backrec5.h" />
     <ClInclude Include="HomeDyn15.h" />
     <ClInclude Include="HomeDyn3.h" />
+    <ClInclude Include="input.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="KING_INPUT.txt" />
