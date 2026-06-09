@@ -1,0 +1,19 @@
+#include <iostream>
+#include "Haffman.h"
+#include "sup.h"
+void Task2() {
+    std::string text;
+    HowToFillHaffman(text);
+    std::cout << "\nThe specified value was used: " << text << "\"\n";
+    HaffmanCoder coder(text);
+    coder.encode();
+    coder.printTree();
+    coder.printTable();
+    coder.printStats();
+    coder.printEncodedBits();
+    std::string bits = coder.getEncodedBits();
+    std::string decoded = coder.decodeFromTree(bits);
+    std::cout << "\nEncoded string: \"" << decoded << "\"\n";
+    std::cout << "Matches the original one: " << (decoded == text ? "Yes" : "No") << "\n";
+    std::cin.get();
+}
