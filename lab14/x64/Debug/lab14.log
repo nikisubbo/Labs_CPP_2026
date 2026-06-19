@@ -1,0 +1,6 @@
+﻿  Assoc17.cpp
+C:\Users\User\source\repos\lab14\lab14\Assoc17.cpp(18,32): warning C4267: +=: преобразование из "size_t" в "int"; возможна потеря данных
+  Assoc2.cpp
+  Assoc21.cpp
+  Создание кода...
+  lab14.vcxproj -> C:\Users\User\source\repos\lab14\x64\Debug\lab14.exe
